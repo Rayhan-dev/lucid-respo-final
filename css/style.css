@@ -1,0 +1,538 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.header-container {
+}
+header {
+  min-height: 100vh;
+  background-image: url("../images/banner.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+.navbar-light .navbar-brand {
+  color: rgb(255, 255, 255);
+  font-family: Quicksand, sans-serif;
+  font-size: 32px;
+}
+.navbar-brand p {
+  color: rgb(162, 162, 162);
+  font-family: "Source Sans Pro";
+  font-size: 10px;
+  display: inline-block;
+}
+.navbar-light .navbar-brand:hover {
+  color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: Quicksand, sans-serif;
+  text-align: center;
+}
+.navbar-nav .nav-link:hover {
+  color: rgb(255, 255, 255) !important;
+}
+.navbar .nav-item {
+  position: relative;
+  margin-left: 18px;
+}
+.navbar-light .navbar-nav .nav-link::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 2px;
+  width: 0%;
+  background-color: rgb(0, 142, 214);
+  transition: all 0.5s ease-in-out 0s;
+}
+.navbar-light .navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  height: 2px;
+  width: 0%;
+  background-color: rgb(0, 142, 214);
+  transition: all 0.5s ease-in-out 0s;
+}
+.navbar-nav .nav-link:hover::before {
+  width: 48%;
+}
+.navbar-nav .nav-link:hover::after {
+  width: 48%;
+}
+.toggler{
+  color: #fff;
+}
+.contents {
+}
+.banner-content {
+}
+.banner-content h5 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(0, 142, 214);
+}
+.banner-content h1 {
+  font-size: 45px;
+  font-family: Quicksand, sans-serif;
+}
+.banner-content p {
+  font-size: 19px;
+  font-weight: normal;
+  color: rgb(153, 153, 153);
+}
+.banner-image {
+}
+.banner-image img {
+  position: absolute;
+  right: 16%;
+  bottom: 0px;
+  width: 30%;
+}
+.btn-download {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color: rgb(0, 142, 214);
+  padding: 10px 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  transition: all 0.3s ease-in-out 0s;
+  text-transform: uppercase;
+}
+.btn-download:hover {
+  background: transparent;
+  border: 1px solid rgb(99, 99, 99);
+  color: rgb(255, 255, 255);
+}
+.btn-feature {
+  font-size: 19px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 0px 0px 0px 20px;
+  background-color: transparent;
+  padding: 10px 25px;
+  font-family: "Source Sans Pro", sans-serif;
+  border: 1px solid rgb(99, 99, 99);
+  transition: all 0.3s ease-in-out 0s;
+  text-transform: uppercase;
+}
+.btn-feature:hover {
+  background-color: rgb(0, 142, 214);
+  color: rgb(255, 255, 255);
+  border: transparent;
+}
+.product_overview_section {
+  border-bottom: 1px solid rgb(208, 208, 208);
+}
+.section_heading {
+}
+.section_heading h5 {
+  font-size: 18px;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  color: rgb(0, 142, 214);
+  text-transform: uppercase;
+}
+.section_heading h2 {
+  font-size: 32px;
+  font-family: Quicksand;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.section_heading span {
+  display: inline-block;
+  height: 2px;
+  width: 80px;
+  position: relative;
+}
+.section_heading span::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 2px;
+  width: 0%;
+  background-color: rgb(0, 142, 214);
+  transition: all 0.5s ease-in-out 0s;
+}
+.product_overview_section:hover span::before {
+  width: 45%;
+}
+.product_overview_contents{
+  
+}
+.section_heading span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  height: 2px;
+  width: 0%;
+  background-color: rgb(0, 142, 214);
+  transition: all 0.5s ease-in-out 0s;
+}
+.product_overview_section:hover span::after {
+  width: 45%;
+}
+.product_overview_section i {
+  font-size: 30px;
+  color: rgb(0, 142, 214);
+  height: 100px;
+  width: 100px;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 50px;
+  line-height: 100px;
+  margin-bottom: 20px;
+}
+.product_overview_section h3 {
+  font-family: "Source Sans Pro";
+  font-size: 28px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+.product_overview_section p {
+  color: rgb(153, 153, 153);
+  font-size: 19px;
+  font-family: "Source Sans Pro";
+}
+.dip_details_secton {
+}
+.phone-2-img{
+
+}
+.dip_details_secton:hover span::before {
+  width: 45%;
+}
+.dip_details_secton:hover span::after {
+  width: 45%;
+}
+.dip_details_content {
+}
+.dip_details_content p {
+  color: rgb(153, 153, 153);
+  font-family: "Source Sans Pro";
+  font-size: 19px;
+  padding: 20px 0px;
+}
+.dip_details_icon_text_part {
+  display: flex;
+}
+.dip_icons {
+}
+.dip_icons i {
+  display: block;
+  color: rgb(0, 142, 214);
+  padding-top: 11px;
+  text-align: center;
+}
+.dip_icon_text {
+  padding-left: 19px;
+}
+.dip_icon_text p {
+  padding: 0px;
+  margin: 0px;
+  color: black;
+  font-family: "Source Sans Pro";
+}
+.super_easy_section {
+  background-color: rgb(242, 242, 242);
+}
+.super_easy_section:hover span::before {
+  width: 48%;
+}
+.super_easy_section:hover span::after {
+  width: 48%;
+}
+.super_easy_section_heading {
+  /* padding: 48px 0px; */
+}
+.super_easy_section p {
+  color: rgb(153, 153, 153);
+  font-size: 19px;
+  font-family: "Source Sans Pro";
+  padding: 20px 0px;
+}
+.super_easy_image {
+}
+.super_easy_image img {
+}
+.Testimonial_section {
+  background-image: url("../images/testimonial_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: rgb(255, 255, 255);
+}
+.Testimonial_section:hover span::before {
+  width: 48%;
+}
+.Testimonial_section:hover span::after {
+  width: 48%;
+}
+.testimonial_section_heading {
+  text-align: center;
+}
+.client-testimonial {
+}
+.client-testimonial p {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-size: 20px;
+}
+.clients {
+  cursor: alias;
+  display: flex;
+  justify-content: inherit;
+  width: 55%;
+  padding-top: 15px;
+}
+.client-image {
+  width: 70px;
+  border: 1px solid rgb(82, 82, 82);
+  height: fit-content;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.client-image img {
+}
+.claint-identity {
+  margin-left: 10px;
+}
+.claint-identity p {
+  font-family: "Source Sans Pro";
+  font-style: inherit;
+  font-size: 18px;
+}
+.claint-identity h6 {
+  font-family: "Source Sans Pro";
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+.owl-dots {
+  text-align: center;
+  align-items: center;
+}
+.owl-dots .owl-dot span {
+  display: block;
+  background: transparent;
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 50px;
+}
+.owl-dots .active span {
+  height: 15px;
+  width: 15px;
+  background: rgb(255, 255, 255);
+  border: transparent;
+}
+.download_section {
+  background-color: black;
+}
+.download_section h2 {
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+}
+.download_section h2 span {
+  font-weight: 100;
+}
+.price_and_plans_section {
+}
+.price_and_plans_heading {
+  text-align: center;
+}
+.price_and_plans_section:hover span::before {
+  width: 48%;
+}
+.price_and_plans_section:hover span::after {
+  width: 48%;
+}
+.price-and-plan-table {
+}
+.price-and-plan-table .table {
+  border: 1px solid rgb(224, 224, 224);
+  font-family: "Source Sans Pro";
+  padding: 20px 0px;
+}
+.service-type {
+  border-bottom: 1px solid rgb(224, 224, 224);
+  padding: 10px 30px;
+}
+.service-type h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.cost {
+  border-bottom: 1px solid rgb(224, 224, 224);
+  padding: 15px 30px;
+}
+.cost sup {
+  font-weight: bold;
+  font-size: 32px;
+}
+.cost h3 {
+  display: inline;
+  font-size: 50px;
+  font-weight: bold;
+}
+.cost p {
+  color: rgb(153, 153, 153);
+}
+.service-details {
+}
+.service-details p {
+  padding: 10px 30px;
+  color: rgb(153, 153, 153);
+  font-size: 16px;
+}
+.service-details a {
+}
+.custom-btn {
+  border: 1.5px solid rgb(224, 224, 224);
+  color: rgb(0, 142, 214);
+  margin: 0px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.table:hover .service-type {
+  color: rgb(0, 142, 214);
+  transition: all 0.5s ease-in-out 0s;
+}
+.table:hover .cost {
+  background-color: rgb(0, 142, 214);
+  transition: all 0.5s ease-in-out 0s;
+}
+.table:hover .cost p {
+  color: rgb(255, 255, 255);
+  transition: all 0.5s ease-in-out 0s;
+}
+.table:hover .cost {
+  color: rgb(255, 255, 255);
+  transition: all 0.5s ease-in-out 0s;
+}
+.table:hover .custom-btn {
+  background-color: rgb(0, 142, 214);
+  color: rgb(255, 255, 255);
+  border: 1px solid transparent;
+  transition: all 0.5s ease-in-out 0s;
+}
+.contact_us_sections:hover span::before {
+  width: 45%;
+}
+.contact_us_sections:hover span::after {
+  width: 45%;
+}
+.contact_us_sections {
+  background-color: rgb(237, 237, 237);
+  position: relative;
+  padding-bottom: 300px;
+}
+.contact-details {
+}
+.call-media{
+
+}
+.contact-details i {
+  font-size: 30px;
+  color: rgb(0, 142, 214);
+  padding-bottom: 20px;
+}
+.contact-details p {
+  color: rgb(153, 153, 153);
+}
+.contact-form {
+  background-color: black;
+  padding: 25px;
+  margin-top: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 35%;
+  top: 350px;
+}
+.contact-form input {
+  margin-top: 30px;
+
+  color: #fff;
+
+  background: transparent;
+}
+.contact-form textarea {
+  background-color: transparent;
+  margin-top: 30px;
+}
+.contact-form input[type="submit"] {
+  margin: 0;
+
+  background-color: rgb(0, 142, 214);
+
+  color: #fff;
+
+  padding: 10px 20px;
+
+  border: 1px solid transparent;
+
+  border-radius: 5px;
+}
+.contact-form input[type="submit"]:hover {
+  color: #fff;
+  background-color: black;
+  transition: 0.5s all ease-in-out;
+  border: 1px solid #fff;
+}
+.form-control:focus {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  border: 1px solid;
+}
+.google-map {
+  width: 100%;
+}
+.footer{
+background-color: black;
+}
+.footer-icons{
+
+text-align: center;
+
+display: flex;
+
+justify-content: center;
+}
+.footer-icons i{color: #444348;font-size: 18px;margin-right: 20px;}
+.footer-icons i:hover{
+  color: rgb(0, 142, 214);
+}
+.fotter-text{
+color: #444348;
+}
+.fotter-text p{
+
+text-align: center;
+
+margin: 0px;
+
+font-size: 18px;
+
+margin-top: 20px;
+}
+.download-section-btn{
+  
+}
+.altenative-banner-img{
+  display: none;
+}

@@ -1,0 +1,635 @@
+@media (min-width: 1921px) and (max-width: 2560px){
+  .banner-image img{
+   
+width: 16%;
+   
+right: 24%;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1920px){
+  .banner-image img {
+    right: 16%;
+    bottom: 0px;
+}
+.contact-form {
+
+width: 40%;
+}
+.banner-image img {
+
+  width: 22%;
+}
+}
+@media (min-width: 1221px) and (max-width: 1440px){
+  .banner-image img {
+    position: absolute;
+    right: 5%;
+    bottom: 0px;
+}
+.contact-form {
+
+  width: 45%;
+
+}
+}
+@media (min-width: 1025px) and (max-width: 1220px){
+  .banner-image img {
+    position: absolute;
+    right: 5%;
+    bottom: 0px;
+}
+
+.contact-form {
+
+width: 50%;
+}
+.download_section h2 {
+
+  font-size: 25px;
+  padding-top: 7px;
+}
+}
+@media (min-width: 992px) and (max-width: 1024px){
+  .banner-image img {
+    position: absolute;
+    right: 5%;
+    bottom: 0px;
+}
+
+.contact-form {
+
+width: 55%;
+}
+.download_section h2 {
+
+font-size: 23px;
+
+padding-top: 7px;
+}
+.download-section-btn {
+  font-size: 16px;
+  padding: 0px !important;
+  padding: 10px 20px !important;
+  margin: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .banner-image img {
+    position: absolute;
+    right: 2%;
+    bottom: 0px;
+    width: 39%;
+  }
+  .banner-content {
+    padding-top: 25px;
+}
+  .altenative-banner-img{
+    display: none;
+  }
+
+  .banner-content h5 {
+    font-size: 16px;
+  }
+  .banner-content h1 {
+    font-size: 35px;
+    padding: 20px 0px !important;
+  }
+  .banner-content p {
+    font-size: 14px;
+    padding-bottom: 20px !important;
+  }
+  .contents {
+  }
+  .contents {
+  padding: 30px 0px !important;
+  margin: 0px !important;
+  }
+  .btn-download {
+    font-size: 15px;
+    padding: 10px 16px;
+  }
+  .btn-feature {
+    font-size: 15px;
+    padding: 10px 16px;
+  }
+  .section_heading h5 {
+    font-size: 18px;
+  }
+  .section_heading h2 {
+    font-size: 30px;
+  }
+  .rev{
+  }
+  .phone-2-img{
+    margin: auto;
+    padding-top: 20px;
+  }
+  .product_overview_section h3 {
+    font-size: 25px;
+    padding-bottom: 5px;
+  }
+  .product_overview_section p {
+    font-size: 18px;
+  }
+  .product_overview_section i {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .product_overview_contents {
+    padding: 0 !important;
+  }
+  element.style {
+    width: 80%;
+}
+  .phone-2-img {
+  width: 50%;
+  }
+  .dip_details_content {
+    padding-top: 20px;
+  }
+  .dip_details_content p {
+    font-size: 16px;
+    padding: 10px 0px;
+  }
+  .dip_icon_text p {
+    padding: 5px 0px !important;
+  }
+  .dip_icons i {
+    padding: 9px 0px;
+  }
+  .super_easy_section_heading {
+    padding-top: 0 !important;
+    padding-bottom: 0px !important;
+  }
+  .super_easy_section p {
+    font-size: 16px;
+    padding: 10px 0px;
+  }
+  .super_easy_image img {
+    width: 100%;
+  }
+  .client-testimonial p {
+    font-size: 16px;
+  }
+  .clients {
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+  }
+  .claint-identity h6 {
+    font-size: 12px;
+  }
+  .download_section h2 {
+    font-size: 19px;
+    padding-top: 5px;
+  }
+  .download-section-btn {
+  font-size: 15px;
+  padding: 0px !important;
+  padding: 5px 10px !important;
+  margin: 0px;
+  }
+  .download_section {
+    text-align: center;
+    padding: 25px 0px !important;
+  }
+  .price-and-plan-table .table {
+    padding: 0px;
+  }
+  .cost sup {
+    font-size: 22px;
+  }
+  .cost h3 {
+    font-size: 40px;
+  }
+  .service-details a {
+    margin: 20px 0px;
+  }
+  .contact-form input {
+    margin-top: 15px;
+    color: #fff;
+    background: transparent;
+    font-size: 16px;
+  }
+  .contact-form {
+    width: 65%;
+    top: 400px;
+  }
+  .call-media {
+    margin-top: 25px;
+  }
+  .contact_us_sections {
+    padding-bottom: 310px;
+  }
+  .contact-details p {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    margin-bottom: 5px !important;
+  }
+  .contact-form textarea {
+    background-color: transparent;
+    margin-top: 0px;
+}
+  .footer-icons i {
+      color: #444348;
+      font-size: 15px;
+      margin-right: 20px;
+  }
+  .fotter-text p {
+
+      font-size: 15px;
+      margin-top: 15px;
+  }
+  .img-fluid {
+    max-width: 100% !important;
+    height: auto;
+}
+.service-type h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+}
+@media (min-width: 992px) and (max-width: 1024px){
+  .banner-image img {
+    position: absolute;
+    right: 5%;
+    bottom: 0px;
+    width: 35%;
+}
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .nav-edit{
+    display: inline-block;
+  }
+  .navbar-collapse {
+
+    text-align: center;
+}
+  .banner-image img {
+    display: none;
+  }
+  .banner-content {
+    padding-top: 25px;
+}
+  .altenative-banner-img{
+    display: inherit;
+  }
+
+  .banner-content h5 {
+    font-size: 20px;
+  }
+  .banner-content h1 {
+    font-size: 40px;
+    padding: 20px 0px !important;
+  }
+  .banner-content p {
+    font-size: 16px;
+    padding-bottom: 20px !important;
+  }
+  .contents {
+    text-align: center;
+  }
+  .contents {
+    padding: 20px !important;
+    margin: 20px !important;
+    flex-direction: column-reverse;
+  }
+  .btn-download {
+    font-size: 16px;
+  }
+  .btn-feature {
+    font-size: 16px;
+  }
+  .section_heading h5 {
+    font-size: 18px;
+  }
+  .section_heading h2 {
+    font-size: 30px;
+  }
+  .rev{
+    
+flex-direction: column-reverse;
+  }
+  .phone-2-img{
+    margin: auto;
+    padding-top: 20px;
+  }
+  .product_overview_section h3 {
+    font-size: 25px;
+    padding-bottom: 5px;
+  }
+  .product_overview_section p {
+    font-size: 18px;
+  }
+  .product_overview_section i {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .product_overview_contents {
+    padding: 0 !important;
+  }
+  element.style {
+    width: 80%;
+}
+  .phone-2-img {
+    max-width: 70%;
+    height: auto;
+    width: 60%;
+  }
+  .dip_details_content {
+    padding-top: 20px;
+  }
+  .dip_details_content p {
+    font-size: 16px;
+    padding: 10px 0px;
+  }
+  .dip_icon_text p {
+    padding: 5px 0px !important;
+  }
+  .dip_icons i {
+    padding: 9px 0px;
+  }
+  .super_easy_section_heading {
+    padding-top: 0 !important;
+    padding-bottom: 0px !important;
+  }
+  .super_easy_section p {
+    font-size: 16px;
+    padding: 10px 0px;
+  }
+  .super_easy_image img {
+    width: 70%;
+  }
+  .client-testimonial p {
+    font-size: 16px;
+  }
+  .clients {
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+  }
+  .claint-identity h6 {
+    font-size: 12px;
+  }
+  .download_section h2 {
+    font-size: 18px;
+    margin-bottom: 29px;
+  }
+  .download_section {
+    text-align: center;
+  }
+  .price-and-plan-table .table {
+    padding: 0px;
+  }
+  .cost sup {
+    font-size: 22px;
+  }
+  .cost h3 {
+    font-size: 40px;
+  }
+  .service-details a {
+    margin: 20px 0px;
+  }
+  .contact-form input {
+    margin-top: 15px;
+    color: #fff;
+    background: transparent;
+    font-size: 16px;
+  }
+  .contact-form {
+    width: 65%;
+    top: 569px;
+  }
+  .call-media {
+    margin-top: 25px;
+  }
+  .contact_us_sections {
+    padding-bottom: 400px;
+  }
+  .contact-details p {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    margin-bottom: 5px !important;
+  }
+  .contact-form textarea {
+    background-color: transparent;
+    margin-top: 0px;
+}
+  .footer-icons i {
+      color: #444348;
+      font-size: 15px;
+      margin-right: 20px;
+  }
+  .fotter-text p {
+
+      font-size: 15px;
+      margin-top: 15px;
+  }
+  .img-fluid {
+    max-width: 100% !important;
+    height: auto;
+}
+}
+@media (min-width: 0px) and (max-width: 575px) {
+  .nav-edit{
+    display: inline-block;
+  }
+  .navbar-collapse {
+
+    text-align: center;
+}
+  .banner-image img {
+    display: none;
+  }
+  .banner-content h5 {
+    font-size: 16px;
+  }
+  .banner-content h1 {
+    font-size: 32px;
+    padding: 20px 0px !important;
+  }
+  .banner-content p {
+    font-size: 16px;
+    padding-bottom: 20px !important;
+  }
+  .contents {
+    text-align: center;
+  }
+  .contents {
+    padding: 20px !important;
+    margin: 20px !important;
+  }
+  .btn-download {
+    font-size: 16px;
+  }
+  .btn-feature {
+    font-size: 16px;
+  }
+  .section_heading h5 {
+    font-size: 18px;
+  }
+  .section_heading h2 {
+    font-size: 30px;
+  }
+  .product_overview_section h3 {
+    font-size: 25px;
+    padding-bottom: 5px;
+  }
+  .product_overview_section p {
+    font-size: 18px;
+  }
+  .product_overview_section i {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .product_overview_contents {
+    padding: 0 !important;
+  }
+  .phone-2-img {
+    max-width: 70%;
+    height: auto;
+  }
+  .dip_details_content {
+    padding-top: 20px;
+  }
+  .dip_details_content p {
+    font-size: 16px;
+    padding: 10px 0px;
+  }
+  .dip_icon_text p {
+    padding: 5px 0px !important;
+  }
+  .dip_icons i {
+    padding: 9px 0px;
+  }
+  .super_easy_section_heading {
+    padding-top: 0 !important;
+    padding-bottom: 0px !important;
+  }
+  .super_easy_section p {
+    font-size: 16px;
+    padding: 10px 0px;
+  }
+  .super_easy_image img {
+    width: 70%;
+  }
+  .client-testimonial p {
+    font-size: 18px;
+  }
+  .clients {
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+  }
+  .claint-identity h6 {
+    font-size: 14px;
+  }
+  .download_section h2 {
+    font-size: 18px;
+    margin-bottom: 29px;
+  }
+  .download_section {
+    text-align: center;
+  }
+  .price-and-plan-table .table {
+    padding: 0px;
+  }
+  .cost sup {
+    font-size: 22px;
+  }
+  .cost h3 {
+    font-size: 40px;
+  }
+  .service-details a {
+    margin: 20px 0px;
+  }
+  .contact-form input {
+    margin-top: 15px;
+    color: #fff;
+    background: transparent;
+    font-size: 16px;
+  }
+  .contact-form {
+    width: 75%;
+    top: 569px;
+  }
+  .call-media {
+    margin-top: 25px;
+  }
+  .contact_us_sections {
+    padding-bottom: 400px;
+  }
+  .contact-details p {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    margin-bottom: 5px !important;
+  }
+  .contact-form textarea {
+    background-color: transparent;
+    margin-top: 0px;
+}
+  .footer-icons i {
+      color: #444348;
+      font-size: 15px;
+      margin-right: 20px;
+  }
+  .fotter-text p {
+
+      font-size: 15px;
+      margin-top: 15px;
+  }
+  .img-fluid {
+    max-width: 100% !important;
+    height: auto;
+}
+}
+@media (min-width: 0px) and (max-width: 425px) {
+  .nav-edit{
+    display: inline-block;
+  }
+  .navbar-collapse {
+
+    text-align: center;
+}
+  .btn-feature {
+      margin: 0;
+  }
+  .contents {
+      padding: 20px !important;
+      margin: 10px !important;
+  }
+  .btn-download {
+      margin-top: 15px;
+      margin-right: 0px;
+  }
+    .btn-feature {
+      margin-top: 15px ;
+    }
+    .contact-form {
+      width: 85%;
+      top: 600px;
+  }
+  .fotter-text {
+      color: #444348;
+      width: 60%;
+  }
+  .download-section-btn {
+    margin-right: 10px;
+}
+  
+
+}
